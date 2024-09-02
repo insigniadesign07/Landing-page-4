@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    text-decoration: none;
+    text-transform: none;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #E7E6E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+ul{
+    margin-top: 10px;
+    margin-right: 80px;
+}
+ul a{
+    margin-right: 50px;
+    font-family: "Baskervville SC", serif;
+    font-size: 20px;
+    color: #314E52;
+}
+
+
+nav ul a:hover{
+    color: #fff;
+    border: 1px solid transparent;
+    border-bottom-color: #ffffff;
+    
+}
+
+.header{
+    background-color: #E7E6E1;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.header .text{
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 80px ;
+    line-height: 20px;
+    justify-content: center;
+}
+.text h1{
+    color: #314E52;
+    font-size: 80px;
+    line-height: 80px;
+    font-family: "Baskervville SC", serif;
+}
+.text p{
+    margin-top: 30px;
+    color: #6a6962;
+    font-family:Arial, Helvetica, sans-serif
+}
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: #FFBC59;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+box-shadow: 20px 10px 0px -6px rgba(0,0,0,0.85);
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: #314E52;
+}
+
+.btn i {
+    margin-left: 8px;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+.image img{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.icon{
+    background-color: #314E52;
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 25px;
+}
+.icon .icon-1{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon-1 h4{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.icon-1 p{
+    margin-bottom: 20px;
+}
+.icon .icon-1 i{
+    background-color: #fff;
+    color: #314E52;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    
+
+}
